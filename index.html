@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Prathamesh Vidhate — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO / HOME ===== -->
+  <section class="hero" id="home">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Portfolio </p>
+        <h1>Hi, I'm <span class="accent">Prathamesh Vidhate</span>.<br>I design circuits &amp; connected systems.</h1>
+        <p class="hero-sub">Electronics &amp; Telecommunication Engineer — working across embedded systems, signal processing, and communication networks.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Work</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="id-card">
+          <div class="id-card-top">
+            <div class="id-photo">PV</div>
+            <div class="id-seal">PROFILE</div>
+          </div>
+          <h3>Prathamesh Vidhate</h3>
+          <p class="id-role">Electronics &amp; Telecommunication Engineer</p>
+          <ul class="id-details">
+            <li><span>Location</span><b>Mumbai, India</b></li>
+            <li><span>Status</span><b>Free Lancer</b></li>
+            <li><span>Focus</span><b>Embedded Systems &amp; Comms</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="section-label">01 — About</p>
+      <h2 class="section-title">A little about my background</h2>
+      <div class="about-grid">
+        <p class="about-text">
+         I am an Electronics & Telecommunication Engineering student with a
+        strong interest in embedded systems, VLSI design, signal processing, 
+        and communication networks. I enjoy applying engineering concepts to 
+        solve real-world problems and continuously expanding my technical 
+        knowledge through projects and hands-on learning.
+        </p>
+        <div class="about-facts">
+          <div class="fact"><span class="fact-label">Education</span><span class="fact-value">B.E, Electronics &amp; Telecommunication Engineering — 
+          <br>Vidya Prasarak Mandal College Of Engineering, 2026</span></div>
+          <div class="fact"><span class="fact-label">Based in</span><span class="fact-value">Thane,Mumbai, Maharashtra, India</span></div>
+          <div class="fact"><span class="fact-label">Languages</span><span class="fact-value">English, Hindi, Marathi</span></div>
+          <div class="fact"><span class="fact-label">Interests</span><span class="fact-value">IoT, robotics, Telecommunication</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <p class="section-label">02 — Skills</p>
+      <h2 class="section-title">What I work with</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Core Domains</h3>
+          <div class="tag-row">
+            <span class="tag">Embedded Systems</span>
+            <span class="tag">Signal Processing</span>
+            <span class="tag">VLSI Design</span>
+            <span class="tag">Communication Systems</span>
+            <span class="tag">IoT</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Hardware &amp; Tools</h3>
+          <div class="tag-row">
+            <span class="tag">Arduino</span>
+            <span class="tag">Raspberry Pi</span>
+            <span class="tag">8051 / ARM Microcontrollers</span>
+            <span class="tag">PCB Design</span>
+            <span class="tag">Sensors &amp; Actuators</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Software &amp; Simulation</h3>
+          <div class="tag-row">
+            <span class="tag">MATLAB / Simulink</span>
+            <span class="tag">Verilog / VHDL</span>
+
+            <span class="tag">Proteus</span>
+            <span class="tag">Multisim</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <div class="tag-row">
+            <span class="tag">Embedded C</span>
+            <span class="tag">Python</span>
+            <span class="tag">C++</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="section-label">03 — Projects</p>
+      <h2 class="section-title">Selected work</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb">IoT Monitor</div>
+          <div class="project-body">
+            <h3>IoT-Based Health Monitoring System</h3>
+            <p>A sensor node built on a microcontroller that streams temperature, SpO2, and Blood Pressure data to a clouddashboard in real time.</p>
+            <div class="tag-row small">
+              <span class="tag">Arduino</span>
+              <span class="tag">Embedded C</span>
+              <span class="tag">IoT</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">DSP Sim</div>
+          <div class="project-body">
+            <h3>Digital Filter Design &amp; Signal Analysis</h3>
+            <p>Designed and simulated FIR/IIR filters in MATLAB to denoise real-world audio and biomedical signals.</p>
+            <div class="tag-row small">
+              <span class="tag">MATLAB</span>
+              <span class="tag">Signal Processing</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">VLSI</div>
+          <div class="project-body">
+            <h3>FPGA-Based Digital Logic Circuit</h3>
+            <p>Implemented and synthesized a custom digital logic module in Verilog, tested on an FPGA dev board.</p>
+            <div class="tag-row small">
+              <span class="tag">Verilog</span>
+              <span class="tag">Xilinx Vivado</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATES ===== -->
+  <section class="section section-alt" id="certificates">
+    <div class="section-inner">
+      <p class="section-label">04 — Certificates</p>
+      <h2 class="section-title">Licenses &amp; certifications</h2>
+      <div class="cert-grid" id="certGrid">
+        <figure class="cert-card">
+          <div class="cert-ribbon">CERT</div>
+          <img src="My Certificate.png" alt="Certificate 1" loading="lazy">
+          <figcaption>
+            <h3>Certificate Title One</h3>
+            <p>Issuing Organization · 2024</p>
+          </figcaption>
+        </figure>
+
+        <figure class="cert-card">
+          <div class="cert-ribbon">CERT</div>
+          <img src="DMCOE CONFERENCE.png" alt="Certificate 2" loading="lazy">
+          <figcaption>
+            <h3>Certificate Title Two</h3>
+            <p>Issuing Organization · 2024</p>
+          </figcaption>
+        </figure>
+  </section>
+
+  <!-- Lightbox for certificate images -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <img src="" alt="" id="lightboxImg">
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="section-inner">
+      <p class="section-label">05 — Contact</p>
+      <h2 class="section-title">Let's work together</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>Have an opportunity or just want to say hello? My inbox is open.</p>
+          <ul class="contact-list">
+            <li><span>Email</span><a href="mailto:pranavdadav@gmail.com">pranavdadav@gmail.com</a></li>
+            <li><span>Phone</span><a href="tel:+918850230145">+91 88502 30145</a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/prathamesh-vidhate" target="_blank" rel="noopener">www.linkedin.com/in/
+            prathamesh-vidhate</a></li>
+            <li><span>GitHub</span><a href="#" target="_blank" rel="noopener">github.com/pranav007-cell</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label>Name
+            <input type="text" name="name" required placeholder="Your full name">
+          </label>
+          <label>Email
+            <input type="email" name="email" required placeholder="[email protected]">
+          </label>
+          <label>Message
+            <textarea name="message" rows="4" required placeholder="Tell me about the opportunity..."></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary full">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Prathamesh Vidhate.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
